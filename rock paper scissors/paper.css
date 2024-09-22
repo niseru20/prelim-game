@@ -1,0 +1,105 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    background:url(f5f27448c036af645c27467c789ad759.gif);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.container {
+    font-family: cursive;
+    color: #ffffff;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-width: 900px; 
+    margin: 100px auto;
+    background-color: #080332;
+    padding: 40px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+}
+
+.player-img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.computer-img {
+    width: 300px;
+    height: 300px;
+
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em; /* Slightly larger heading */
+}
+
+h2{
+    margin-bottom: auto;
+    font-size: 30px;
+    width: 850px;
+    height: 1px;
+    margin: 5px;
+
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px; 
+}
+
+.score {
+    font-size: 2em; 
+    font-weight: bold;
+}
+
+.choices {
+    margin-bottom: 30px;
+}
+
+.choice {
+    padding: 15px 30px; /* Increased button size */
+    font-size: 1.5em;
+    margin: 0 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px; /* Slightly rounded buttons */
+    background-color: #1f0f7a;
+    color: white;
+   
+}
+
+
+.result {
+    font-size: 1.8em; 
+    font-weight: bold;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.reset-btn {
+    padding: 15px 30px; /* Larger reset button */
+    font-size: 1.5em;
+    cursor: pointer;
+    border: none;
+    background-color: #ad2f26;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reset-btn:hover {
+    background-color: #d32f2f;
+}
